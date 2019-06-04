@@ -10,18 +10,90 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
-  flex-direction: column;
+/*  flex-direction: column;*/
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+/*  color: white;*/
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.Header {
+/*  color: #E5453D;*/
+  color: #e5453d;
+  font-family: "Roboto";
+}
+
+.Game {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+
+
+.WinButton  {
+  float: left;
+  position: relative;;
+  left: 29%
+}
+
+
+
+.text-center {
+  float: left;
+  position: relative;;
+  left: 72%
+}
+
+
+.Dest {
+  width: 100%;
+  height: 100%;
+}
+
+
+.NavBar {
+  height: 10vh;
+  background-color: #282c34;
+}
+
+.Intro {
+  float: left;
+  padding: 1%;
+  color: gray;
+  opacity: 0.8%;
+  font-size: 29px;
+  font-family: "Orbitron";
+
+}
+
+.box {
+/*  background-color: yellow;*/
+  width: 150px;
+  height: 270px;
+  border: 2px solid gray;
+  border-radius:4px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 30px;
+}
+
+
+.Title {
+  color: #f7f8fb;
+  font-family: "Roboto";
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -31,3 +103,4 @@
     transform: rotate(360deg);
   }
 }
+

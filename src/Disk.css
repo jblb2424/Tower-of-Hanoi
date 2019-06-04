@@ -1,0 +1,19 @@
+.Long {
+  background-color: green;
+  border-radius: 25px;
+
+  width: 145px;
+
+}
+
+.Medium {
+  background-color: white;
+  border-radius: 25px;
+  width: 100px;
+}
+
+.Short{
+  background-color: red;
+  border-radius: 10px;
+  width: 50px;
+}
